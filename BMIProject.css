@@ -1,0 +1,841 @@
+*{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+header>nav>#headder{
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid red; */
+    box-shadow: 1px 1px 5px 2px rgb(158, 148, 148);
+    z-index: 10;
+    position: fixed;
+    background-color: white;
+
+}
+header>nav>#headder>p{
+    text-align: center;
+    padding-top: 19px;
+    color:rgb(131, 172, 194);
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+#first{
+    height: 628px;
+    width: 100%;
+    /* border: 2px solid black; */
+    
+    position: absolute;
+    top: 70px;
+}
+#first>#main{
+    height: 350px;
+    width: 860px;
+    /* border: 2px solid blue; */
+    background-color: rgb(223, 241, 251);
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 2px rgb(158, 148, 148);
+}
+#first>#main>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#first>#main>h1{
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+#first>#main>p{
+     position: absolute;
+    left: 120px;
+    top: 70px;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+#first>#main>#input{
+    height: 210px;
+    width: 815px;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 5px 2px rgb(158, 148, 148); */
+    background-color: aliceblue;
+    border: 1px solid rgb(191, 217, 229);
+
+
+}
+#first>#main>#input>#l1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+#first>#main>#input>#in1{
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    outline: none;
+    height: 25px;
+    width: 160px;
+    border-radius: 3px;
+    border: 0.5px solid black;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#first>#main>#input>#in1::placeholder{
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: rgb(149, 148, 148);
+}
+#first>#main>#input>#l2{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+#first>#main>#input>#in2{
+    position: absolute;
+    top: 105px;
+    left: 20px;
+    outline: none;
+    height: 25px;
+    width: 160px;
+    border-radius: 3px;
+    border: 0.5px solid black;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#first>#main>#input>#in2::placeholder{
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: rgb(149, 148, 148);
+}
+#first>#main>#input>button{
+    position: absolute;
+    left: 120px;
+    top: 146px;
+    height: 29px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgb(129, 189, 226);
+    font-size: 14px;
+    color: white;
+    font-weight: 0px;
+    
+}
+#first>#main>#input>button:hover{
+    background-color: rgb(79, 159, 205);
+    color: rgb(82, 76, 76);
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+#first>#main>#input>p{
+    font-size: 11px;
+    font-style: italic;
+    position: absolute;
+    left: 280px;
+    top: 183px;
+    color: rgb(249, 49, 3);
+    font-weight: 900;
+}
+
+#first>#main>#input>#output{
+    height: 155px;
+    width: 500px;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 280px;
+    top: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+#first>#main>#input>#output>h2{
+    
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 210px;
+
+
+
+}
+#first>#main>#input>#output>#value{
+    height: 20px;
+    width: 50px;
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 30px;
+    left: 228px;
+    
+    
+    
+}
+#first>#main>#input>#output>#value>h1{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 900;
+    color: green;
+    
+}
+
+
+#first>#main>#input>#output>#flex{
+    height: 20px;
+    width: 475px;
+    /* border: 2px solid red; */
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    
+    top: 60px;
+    
+}
+#first>#main>#input>#output>#flex>span>.line{
+    height: 1px;
+    width: 112px;
+    border: 2px solid green;
+    
+
+}
+#first>#main>#input>#output>#flex>span>#lc1{
+    border: 2px solid yellow;
+}
+#first>#main>#input>#output>#flex>span>#lc2{
+    border: 2px solid green;
+}
+#first>#main>#input>#output>#flex>span>#lc3{
+    border: 2px solid orange;
+}
+#first>#main>#input>#output>#flex>span>#lc4{
+    border: 2px solid red;
+}
+#first>#main>#input>#output>#indicator{
+    height: 16px;
+    width: 6px;
+    background-color: black;
+    z-index: 5;
+    position: absolute;
+    left: 10px;
+    top: 62px;
+}
+#first>#main>#input>#output>#p1{
+    font-size: 10px;
+    font-style: italic;
+    color: rgb(231, 141, 51);
+    position: absolute;
+    left: 10px;
+    top: 80px;
+
+
+}
+#first>#main>#input>#output>#p2{
+    font-size: 10px;
+    font-style: italic;
+    color: rgb(231, 141, 51);
+    position: absolute;
+    left: 132px;
+    top: 80px;
+
+
+}
+#first>#main>#input>#output>#p3{
+    font-size: 10px;
+    font-style: italic;
+    color: rgb(231, 141, 51);
+    position: absolute;
+    left: 251px;
+    top: 80px;
+
+
+}
+#first>#main>#input>#output>#p4{
+    font-size: 10px;
+    font-style: italic;
+    color: rgb(231, 141, 51);
+    position: absolute;
+    left: 371px;
+    top: 80px;
+
+
+}
+#first>#main>#input>#output>#review{
+    height: 50px;
+    width: 475px;
+    /* border: 2px solid blue; */
+    position: absolute;
+    left: 10px;
+    top: 92px;
+}
+#first>#main>#input>#output>#review>#stage{
+    font-size: 13px;
+     color: rgb(155, 103, 103);
+    font-family:'Poppins', sans-serif;
+
+}
+#first>#main>#input>#output>#review>#description{
+    font-size: 10px;
+    color: #555;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: 0.3px;
+    word-spacing: 0.3px;
+    
+    
+
+
+}
+
+#first>#introduction{
+     height: 200px;
+    width: 860px;
+    /* border: 2px solid blue; */
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    top: 400px;
+    border-radius: 8px;
+    /* box-shadow: 1px 1px 5px 2px rgb(158, 148, 148); */
+}
+#first>#introduction>h2{
+    text-align: center;
+    font-size: 18px;
+     font-family:'Poppins', sans-serif;
+     color: rgb(56, 56, 103);
+
+}
+#first>#introduction>#p1{
+    position: absolute;
+    top: 33px;
+    
+    font-family:'Poppins', sans-serif;
+    font-size: 11px;
+    line-height: 1.8;
+    color: #555;
+}
+#first>#introduction>#p2{
+    position: absolute;
+    top: 93px;
+    font-size: 11px;
+    font-family:'Poppins', sans-serif;
+    font-size: 11px;
+    line-height: 1.8;
+    color: #555;
+}
+#first>#introduction>#p3{
+    position: absolute;
+    top: 135px;
+    font-size: 11.2px;
+    font-family:'Poppins', sans-serif;
+    font-size: 11px;
+    line-height: 1.8;
+    color: #555;
+}
+#second{
+    height: 375px;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 696px;
+    background-color:rgb(223, 241, 251);
+}
+#second>h1{
+
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    position: absolute;
+    top: 20px;
+    left: 448px;
+    color: #0e0e0e;
+    
+
+}
+#second>p{
+     position: absolute;
+    top: 55px;
+    left: 218px;
+    
+    font-family:'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 1.8;
+    
+     color: rgb(129, 110, 110);
+    
+
+}
+#second>#flex{
+    height: 235px;
+    width: 100%;
+    /* border: 2px solid rgb(57, 11, 224); */
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+#second>#flex>.c1{
+    height: 230px;
+    width: 220px;
+    /* border: 2px solid rgb(224, 178, 11); */
+    background-color: aliceblue;
+    border-radius: 10px;
+     box-shadow: 1px 1px 5px 2px rgb(158, 148, 148);
+    
+     padding: 15px;
+     
+    
+
+}
+#second>#flex>.c1:hover{
+    height: 232px;
+    width: 220px;
+     box-shadow: 1px 1px 5px 2px rgb(72, 71, 71);
+     padding: 15px;
+     transition-duration: 0.4s;
+     transition-delay: 0.2s;
+     transition-timing-function: ease-in;
+
+}
+
+
+#second>#flex>.c1>h3{
+    position: relative;
+    /* top: 13px;
+     left: 15px; */
+    /* right: 15px; */
+    font-size: 16px;
+    color: rgb(145, 102, 24);
+
+}
+#second>#flex>.c1>p{
+     
+    position: relative;
+    top: 10px;
+    /* left: 15px; */
+   
+    font-size: 13px;
+    color: rgb(129, 110, 110);
+}
+#s3{
+    height: 465px;
+    width: 100%;
+    /* border:2px solid rgb(0, 255, 98); */
+    position: absolute;
+    top: 1071px;
+    background-color: white;
+}
+#s3>h2{
+    position: absolute;
+    top: 15px;
+    left: 470px;
+    font-size: 22px;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;
+     color: rgb(56, 56, 103);
+}
+#s3>#p1{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    right: 120px;
+    font-size: 14px;
+
+}
+#s3>#d1{
+    height: 75px;
+    width: 450px;
+    /* border: 2px solid navy; */
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+
+}
+#s3>#d1>#p1{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 10px;
+    font-size: 15px;
+    color: rgb(129, 110, 110);
+}
+#s3>#d1>#p2{
+    position: absolute;
+    top: 35px;
+    left: 12px;
+    right: 10px;
+    font-size: 15px;
+    color: rgb(129, 110, 110);
+}
+#s3>h3{
+    position: absolute;
+    top: 183px;
+    left: 120px;
+    font-size: 17px;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    font-weight: 800;
+}
+#s3>#d2{
+    height: 130px;
+    width: 420px;
+    /* border: 2px solid navy; */
+    position: absolute;
+    top: 210px;
+    left: 120px;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+#s3>#d2>h3{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 15px;
+    
+
+}
+#s3>#d2>h2{
+    position: absolute;
+    top: 35px;
+    left: 12px;
+    font-size: 17px;
+
+}
+#s3>#d2>h5{
+    position: absolute;
+    top: 55px;
+    left: 12px;
+    font-size: 16px;
+
+}
+#s3>#d2>#p1{
+    position: absolute;
+    top: 75px;
+    left: 12px;
+    right: 10px;
+    font-size: 15px;
+    color: rgb(129, 110, 110);
+}
+#s3>#d2>#p2{
+    position: absolute;
+    top: 95px;
+    left: 12px;
+    right: 10px;
+    font-size: 15px;
+    color: rgb(129, 110, 110);
+}
+#s3>#d3{
+    height: 130px;
+    width: 420px;
+    /* border: 2px solid navy; */
+    position: absolute;
+    top: 210px;
+    left: 600px;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+#s3>#d3>h3{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 15px;
+    
+
+}
+#s3>#d3>h2{
+    position: absolute;
+    top: 35px;
+    left: 12px;
+    font-size: 17px;
+
+}
+#s3>#d3>h5{
+    position: absolute;
+    top: 55px;
+    left: 12px;
+    font-size: 16px;
+
+}
+#s3>#d3>#p1{
+    position: absolute;
+    top: 75px;
+    left: 12px;
+    right: 10px;
+    font-size: 15px;
+    color: rgb(129, 110, 110);
+}
+#s3>#d3>#p2{
+    position: absolute;
+    top: 95px;
+    left: 12px;
+    right: 10px;
+    font-size: 15px;
+    color: rgb(129, 110, 110);
+}
+#s3>#p2{
+    position: absolute;
+    top: 353px;
+    left: 120px;
+    right: 120px;
+    font-size: 14px;
+
+}
+#s3>a>div{
+    height: 50px;
+    width: 190px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 385px;
+    left: 500px;
+    border-radius: 7px;
+    background-color: rgb(244, 161, 8);
+    box-shadow: 1px 1px 2px 2px rgb(158, 147, 147);
+
+
+}
+#s3>a>div:hover{
+    background-color: rgb(252, 157, 5);
+    box-shadow: 1px 1px 1px 1.5px rgb(176, 172, 172);
+   
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    
+
+}
+#s3>a>div>p{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    right: 10px;
+    font-size: 14px;
+    color: white;
+
+}
+#s3>a>div>h3{
+    position: absolute;
+    top: 22px;
+    left: 21px;
+    right: 17px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    
+
+}
+#s4{
+    height: 475px;
+    width: 100%;
+    /* border:2px solid rgb(217, 11, 245); */
+    position: absolute;
+    top: 1535px;
+    background-color: rgb(243, 250, 251);
+
+}
+#s4>#d1{
+    height: 350px;
+    width: 370px;
+    /* border: 2px solid rgb(34, 178, 128); */
+    position: absolute;
+    left: 160px;
+    top: 30px;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+#s4>#d1>h1{
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    font-size: 22px;
+     color: rgb(56, 56, 103);
+
+}
+#s4>#d1>#p1{
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    top: 73px;
+    font-size: 15px;
+
+}
+#s4>#d1>#m1{
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    height: 170px;
+    width: 340px;
+
+}
+#s4>#d1>#p2{
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    top: 273px;
+    font-size: 13.2px;
+    font-style: italic;padding-right: 8px;
+
+}
+
+
+#s4>#d2{
+    height: 350px;
+    width: 370px;
+    /* border: 2px solid rgb(34, 178, 128); */
+    position: absolute;
+    left: 660px;
+    top: 30px;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+#s4>#d2>h1{
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    font-size: 22px;
+     color: rgb(56, 56, 103);
+
+}
+#s4>#d2>#p1{
+    position: absolute;
+    left: 20px;
+    right: 15px;
+    top: 73px;
+    font-size: 15px;
+
+}
+#s4>#d2>#p2{
+    position: absolute;
+    left: 20px;
+    right: 15px;
+    top: 200px;
+    font-size: 13px;
+    background-color: rgb(216, 214, 214);
+    padding: 10px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+
+}
+
+#s4>#a1>div{
+    height: 50px;
+    width: 190px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    border-radius: 7px;
+    background-color: rgb(244, 161, 8);
+    box-shadow: 1px 1px 2px 2px rgb(158, 147, 147);
+
+
+}
+#s4>#a1>div:hover{
+    background-color: rgb(252, 157, 5);
+    box-shadow: 1px 1px 1px 1.5px rgb(176, 172, 172);
+   
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    
+
+}
+#s4>#a1>div>p{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    right: 10px;
+    font-size: 14px;
+    color: white;
+
+}
+#s4>#a1>div>h3{
+    position: absolute;
+    top: 22px;
+    left: 21px;
+    right: 17px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    
+
+}
+#s5{
+    height: 180px;
+    width: 100%;
+    border: 1px solid brown;
+    position: absolute;
+    top: 2008px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: rgb(231, 220, 210);
+    padding-top: 15px;
+
+
+}
+#s5>h1{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+
+}
+#s5>#p1{
+    font-size: 14px;
+    padding-top: 5px;
+}
+#s5>#p2{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
