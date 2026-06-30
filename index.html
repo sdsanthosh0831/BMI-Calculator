@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./BMIProject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="headder">
+                <p>
+                    BMI CALCULATOR
+                </p>
+            </div>
+        </nav>
+    </header>
+    <section id="first">
+        <div id="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRhmRLFkOkE5vrtTj4xnfd96C9ccqug8ayV8BwPYvPUw&s=10" alt="BMI LOGO">
+            <h1>BMI Calculator</h1>
+            <p>Body Mass Index</p>
+            <div id="input">
+                <label for="" id="l1">HEIGHT</label><br>
+                 <input type="number" placeholder="Enter height in cm" id="in1" min="50" max="250" step="10"><br>
+                <label for="" id="l2">WEIGHT</label><br>
+                <input type="number" placeholder="Enter weight in kg" id="in2" min="10" max="300" step="5">
+                <button onclick="BMI()">Calculate</button>
+                <p>Healthy BMI range: 18.5 kg/m2 - 25 kg/m2</p>
+                <div id="output">
+                    <h2>Your BMI is</h2>
+                    <div id="value">
+                        <h1 id="outputvalue">-- --</h1>
+                        
+                    </div>
+                    <div id="flex">
+                        <span><div class="line" id="lc1"></div></span>
+                        <span><div class="line" id="lc2"></div></span>
+                        <span><div class="line" id="lc3"></div></span>
+                        <span><div class="line" id="lc4"></div></span>
+
+                    </div>
+                    <div id="indicator">
+
+                    </div>
+                    
+                    <p id="p1">Underweight</p>
+                    <p id="p2">Normal</p>
+                    <p id="p3">Overweight</p>
+                    <p id="p4">Obesity</p>
+
+                    <div id="review">
+                        <h2 id="stage"></h2>
+                        <p id="description"></p>
+
+                    </div>
+
+
+                    
+                    
+
+
+                </div>
+               
+
+
+
+            </div>
+        </div>
+        <div id="introduction">
+            <h2>Introduction to the body mass index (BMI)</h2>
+
+            <p id="p1">Body Mass Index (BMI) is widely used as an indicator of body fat content. Your weight alone is not sufficient to establish if you are in a healthy weight range. For example, a tall but slender person can weigh more than a short but plump individual. But the former may enjoy better health as long as their weight is suitable for their height. The ideal weight is also likely to differ for men and women of similar heights.</p>
+
+            <p id="p2">How then do you know whether you fall in the healthy weight range or not? Your BMI solves this confusion. It correlates your weight with your height and evaluates whether your weight is appropriate for your stature. You can use a BMI calculator to find out your BMI.</p>
+
+            <p id="p3">Although not an exact measurement of body fat percentage, in most cases, BMI is a reliable tool for establishing risk levels for illnesses, especially ailments related to excess body fat. Many healthcare professionals use BMI to determine effective doses for medicines. Often people with a higher BMI need higher doses. Hence, it is crucial to be aware of your BMI to ensure your overall wellness.</p>
+
+        </div>
+        
+
+    </section>
+    <section id="second">
+        <h1>Why Use a BMI Calculator?</h1>
+        <p>Using a BMI calculator is a convenient way to determine your BMI score quickly. Below are some key reasons to use this tool:</p>
+        <div id="flex">
+            <span id="d1" class="c1">
+                <h3>Health Monitoring</h3>
+                <p>You can gain valuable insights into your overall health status by understanding your BMI. The online BMI calculator takes into consideration your height and weight and offers a quick assessment of your overall health. It highlights potential health risks and areas where you can improve your holistic well-being. This helps you stay fit, active and healthy.</p>
+
+            </span>
+            <span id="d2" class="c1">
+                <h3>Fitness Goals</h3>
+                <p>A BMI calculator becomes a valuable companion in helping you achieve your fitness goals. It allows you to gauge your physical progress accurately. By regularly checking your BMI, you can ensure that your fitness endeavours align with your specific goals.</p>
+
+            </span>
+            <span id="d3" class="c1">
+                <h3>Weight Management</h3>
+                <p>A BMI calculator can be ideal for effective weight management. It assists you in setting realistic weight goals and a path towards a healthier weight. It helps you establish a suitable weight management strategy with achievable milestones over time.</p>
+
+            </span>
+            <span id="d4" class="c1">
+                <h3>Health Assessment</h3>
+                <p>You can gain valuable insights into your overall health status by understanding your BMI. The online BMI calculator takes into consideration your height and weight and offers a quick assessment of your overall health. It highlights potential health risks and areas where you can improve your holistic well-being. This helps you stay fit, active and healthy.</p>
+            </span>
+        </div>
+
+    </section>
+    <section id="s3">
+        <h2>How to calculate BMI</h2>
+        <p id="p1">If you want to calculate your BMI, you have to find out your weight and height first. Once you know these values, you can arrive at the result by following the two steps mentioned below:</p>
+        
+        <div id="d1">
+            <p id="p1">1 - Multiply your height by itself (height X height).</p>
+            <p id="p2">2 - Divide your weight by the answer you get in the first step.</p>
+            
+            
+
+        </div>
+        <h3>The equations for calculating the BMI are as follows:</h3>
+
+        <div id="d2">
+            <h3>International System of Units (SI)</h3>
+            <h2>BMI = weight (kg) ÷ (height (m))2</h2>
+            <h5>Example:</h5>
+            <p id="p1">For a 177 cm (1.77 m) individual weighing 75 kg,</p>
+            <p id="p2">BMI = 75 / (1.77 * 1.77) = 75/ 3.13 = 23.96</p>
+
+        </div>
+
+        <div id="d3">
+            <h3>Imperial System</h3>
+            <h2>BMI = weight (lb) ÷ (height (inches)) 2 × 703</h2>
+            <h5>Example:</h5>
+            <p id="p1">For a 160-pound, 5’8” (68”) individual weighing 75 kg,</p>
+            <p id="p2">BMI = (160/ 68*68) * 703 = (160/4624) * 703 = 24.3</p>
+
+        </div>
+
+        <p id="p2">You can also use an online BMI calculator to find out your BMI and eliminate human errors.</p>
+        <a href="" target="_top">
+            <div>
+            <p>Click me here to know your</p>
+            <h3>Body Mass Index (BMI)</h3>
+            </div>
+        </a>
+
+    </section>
+    <section id="s4">
+        <div id="d1">
+            <img src="https://www.iciciprulife.com/content/icici-prudential-life-insurance/tools-and-calculators/bmi_assets/images/Component8One.svg" alt="">
+            <h1>How to calculate BMI</h1>
+            <p id="p1">For adults over the age of 20 years, BMI values are grouped into the following weight status categories1:</p>
+            <img src="./PHOTO-2026-06-29-19-09-45.jpg" alt="" id="m1">
+            <p id="p2">The range remains the same for males and females. There is no separate BMI calculator for men and women.</p>
+
+            
+
+        </div>
+        <div id="d2">
+            <img src="https://www.iciciprulife.com/content/icici-prudential-life-insurance/tools-and-calculators/bmi_assets/images/Component9One.svg" alt="">
+            <h1>BMI for Children</h1>
+            <p id="p1">In children, body fat content changes with age. It is also normal for teenage girls to have more body fat than boys. BMI calculation for children follows the sameformula as adults. But the value is then plotted on standard gender-specific BMI-for-age percentile charts for children. It determines the child's weight status compared to children of the same gender and age.</p>
+            <p id="p2">For example, a 25th percentile BMI for a 6-year old female child would indicate that the child's weight is higher than 25% of girls aged 6.</p>
+
+        </div>
+        <a href="" target="_top" id="a1">
+            <div>
+            <p>Click me here to know your</p>
+            <h3>Body Mass Index (BMI)</h3>
+            </div>
+        </a>
+        
+    </section>
+    <section id="s5">
+        <h1>Conclusion</h1>
+        <p id="p1">Due to the elevated stress of today's lifestyle and increased pollution levels, obesity and associated lifestyle diseases are rampant even among the youth. Thus, a BMI calculator in India is a useful tool as it can help you assess your health risks. A medical practitioner can help you understand your BMI's implications and guide you towards healthy life choices to prevent any complications.</p>
+        <p id="p2">However, apart from maintaining a healthy lifestyle, it is also crucial to stay prepared for unexpected health complications. Healthcare costs are skyrocketing, and the expenses for quality treatment can strain your financial resources. Fortunately, a health insurance policy can safeguard your savings by covering your healthcare expenses. Hence, along with adopting healthy habits, you can also consider investing in a comprehensive health insurance policy. This will secure your family against the financial repercussions of medical exigencies.</p>
+    </section>
+    <script src="./BMIProject.js"></script>
+    
+</body>
+</html>
