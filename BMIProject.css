@@ -31,12 +31,12 @@ header>nav>#headder>p{
     top: 70px;
 }
 #first>#main{
-    height: 450px;
+    height: 350px;
     width: 860px;
     /* border: 2px solid blue; */
     background-color: rgb(223, 241, 251);
     position: absolute;
-    left: 250px;
+    left: 350px;
     top: 20px;
     border-radius: 8px;
     box-shadow: 1px 1px 5px 2px rgb(158, 148, 148);
